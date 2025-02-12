@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LinearActivity">
+<TextView
+    android:id="@+id/taxtViewLine1"
+    android:text="welcome"
+    android:textSize="60dp"
+    android:textColor="#501"
+    android:layout_width="match_parent"
+    android:layout_height="243.33dp"
+    android:background="@color/white"
+    tools:ignore="ExtraText"
+/>
+
+    <TextView
+        android:id="@+id/taxtViewLine2"
+        android:layout_width="match_parent"
+        android:layout_height="243.33dp"
+        android:background="#500"
+        app:layout_constraintTop_toBottomOf="@+id/taxtViewLine1" />
+
+    <TextView
+        android:id="@+id/taxtViewLine3"
+        android:layout_width="match_parent"
+        android:layout_height="243dp"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/taxtViewLine2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

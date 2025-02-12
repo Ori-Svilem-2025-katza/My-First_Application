@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- טקסט של התקנון -->
+    <TextView
+        android:id="@+id/termsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="התקנון שלנו..."
+        android:textSize="18sp"
+        android:padding="16dp"/>
+
+    <!-- כפתור לאישור התקנון -->
+    <Button
+        android:id="@+id/agreeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="אשר את התקנון"
+        android:layout_gravity="center"/>
+
+    <!-- טקסט לתוצאה אם התקנון אושר או לא -->
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="התקנון לא אושר"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:textColor="#FF0000"/>
+</LinearLayout>
