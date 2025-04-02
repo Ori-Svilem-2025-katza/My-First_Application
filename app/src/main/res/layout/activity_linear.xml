@@ -12,7 +12,7 @@
     android:textColor="#501"
     android:layout_width="match_parent"
     android:layout_height="243.33dp"
-    android:background="@color/white"
+    android:background="#AAFFFFFF"
     tools:ignore="ExtraText"
 />
 
@@ -27,6 +27,6 @@
         android:id="@+id/taxtViewLine3"
         android:layout_width="match_parent"
         android:layout_height="243dp"
-        android:background="@color/white"
+        android:background="#AAFFFFFF"
         app:layout_constraintTop_toBottomOf="@+id/taxtViewLine2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

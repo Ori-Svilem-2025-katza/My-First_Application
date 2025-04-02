@@ -16,9 +16,6 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".ResActivity3"
-            android:exported="false" />
-        <activity
             android:name=".resActivity2"
             android:exported="false" />
         <activity
